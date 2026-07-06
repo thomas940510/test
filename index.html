@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>注音巨大字卡反應爐</title>
+    <title>腦筋急轉彎</title>
     <style>
         body {
             font-family: 'Microsoft JhengHei', sans-serif;
@@ -96,8 +96,8 @@
 </head>
 <body>
 
-    <h1>注音造詞挑戰</h1>
-    <p class="tip">規則：按下按鈕後倒數 5 秒，字卡翻開時請立刻進行造詞！</p>
+    <h1>腦筋急轉彎</h1>
+    <p class="tip">規則：按下按鈕後倒數 3 秒，字卡翻開時請立刻進行造詞！</p>
 
     <div class="card-container">
         <div id="card1" class="card">?</div>
@@ -137,8 +137,8 @@
             card2.innerText = "?";
             card2.classList.remove('active');
 
-            // 2. 開始前置 5 秒倒數
-            let timeLeft = 5;
+            // 2. 開始前置 3 秒倒數
+            let timeLeft = 3;
             timer.style.color = "#ffeaa7";
             timer.innerText = `準備開始...${timeLeft}`;
 
